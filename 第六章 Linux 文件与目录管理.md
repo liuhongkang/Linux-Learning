@@ -1,4 +1,3 @@
-<!-- TOC -->autoauto- [目录与路径](#目录与路径)auto    - [相对路径与绝对路径](#相对路径与绝对路径)auto    - [目录的相关操作](#目录的相关操作)auto        - [cd](#cd)auto        - [mkdir](#mkdir)auto        - [rmdir](#rmdir)auto    - [关于可执行文件路径的变量：$PATH](#关于可执行文件路径的变量path)auto        - [谨记几点](#谨记几点)auto- [文件与目录管理](#文件与目录管理)auto    - [文件与目录的检视：ls](#文件与目录的检视ls)auto    - [复制、删除和移动：cp，rm，mv](#复制删除和移动cprmmv)auto        - [cp（复制文件或目录）](#cp复制文件或目录)auto        - [rm（移除文件或目录）](#rm移除文件或目录)auto        - [mv（移动文件和目录）](#mv移动文件和目录)autoauto<!-- /TOC -->
 ### 目录与路径
 
 #### 相对路径与绝对路径
