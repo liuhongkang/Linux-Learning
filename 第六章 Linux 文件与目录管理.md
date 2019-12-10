@@ -68,7 +68,7 @@
 #### 取得路径的文件名称和目录名称
 
 basename 与 dirname
-![6.2.3.1]
+![6.2.3.1](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.2.3.1.png)
 
 
 ### 文件内容查阅
@@ -85,16 +85,16 @@ basename 与 dirname
 #### 直接检视文件内容
 cat/tac/nl
 ##### cat
-![6.3.1.1]
+![6.3.1.1](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.1.1.png)
 
 ##### tac
 反向 cat
 ##### nl（添加行号打印）
-！[6.3.1.2]
+！[6.3.1.2](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.1.2.png)
 
 #### 可翻页检视
 ##### more（一页一页翻动）
-！[6.3.2.1]
+！[6.3.2.1](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.2.1.png)
 - 空白键 （space）：代表向下翻一页； 
 - Enter ：代表向下翻“一行”； 
 - /字串 ：代表在这个显示的内容当中，向下搜寻“字串 这个关键字； 
@@ -103,7 +103,7 @@ cat/tac/nl
 - b 或 [ctrl]-b ：代表往回翻页，不过这动作只对文件有用，对管线无用。
 
 ##### less（一页一页翻动）
-！[6.3.2.2]
+！[6.3.2.2](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.2.2.png)
 
 - 空白键：向下翻动一页； 
 - [pagedown]：向下翻动一页； 
@@ -121,15 +121,15 @@ cat/tac/nl
 head/tail
 
 ##### head（取出前面几行）
-！[6.3.3.1]
+！[6.3.3.1](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.3.1.png)
 ##### tail（取出后面几行）
-！[6.3.3.2]
+！[6.3.3.2](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.3.2.png)
 
 ##### 例题
-！[6.3.3.3]
+！[6.3.3.3](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.3.3.png)
 
 #### 非纯文本文件：od
-！[6.3.4.1]
+！[6.3.4.1](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.4.1.png)
 
 #### 修改文件时间或创建新文件（touch）
 - modification time （ mtime） ： 当该文件的“内容数据”变更时，就会更新这个时间！内容数据指的是文件的内容，而不是文件的属性或权限喔！
@@ -138,11 +138,11 @@ head/tail
 
 - access time （ atime） ： 当“该文件的内容被取用”时，就会更新这个读取时间 （access）。举例来说，我们使用 cat 去读取 /etc/man_db.conf ， 就会更新该文件的 atime 了。
 
-！[6.3.5.1]
+！[6.3.5.1](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.5.1.png)
 
 touch:
-![6.3.5.2]
-![6.3.5.3]
+![6.3.5.2](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.5.2.png)
+![6.3.5.3](https://github.com/liuhongkang/Linux-Learning/blob/master/images/6.3.5.3.png)
 即使我们复制一 个文件时，复制所有的属性，但也没有办法复制 ctime 这个属性的。 ctime 可以记录这个文件最近的状态 （status） 被改变的时间。
 
 使用情况：
